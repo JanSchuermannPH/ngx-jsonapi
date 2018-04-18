@@ -1,5 +1,5 @@
 {
-  "name": "ngx-jsonapi",
+  "name": "sd-ngx-jsonapi",
   "description": "JSON API library for Angular",
   "scripts": {
     "build": "ts-node ./build/index.ts",
@@ -35,12 +35,12 @@
     "angular4"
   ],
   "authors": [
-    "Pablo Gabriel Reyes"
+    "Jan Schuermann"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reyesoft/ngx-jsonapi"
+    "url": "https://github.com/JanSchuermannPH/sd-ngx-jsonapi"
   },
   "nyc": {
     "extension": [
@@ -158,5 +158,6 @@
     "modulePathIgnorePatterns": [
       "dist"
     ]
-  }
+  },
+  "version": "1.0.0"
 }
