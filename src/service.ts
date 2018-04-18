@@ -34,6 +34,11 @@ export class Service<R extends Resource = Resource> extends ParentResourceServic
     private path: string; // without slashes
     private smartfiltertype = 'undefined';
 
+    constructor() {
+        super();
+        this.register();
+    }
+
     /*
     Register schema on Core
     @return true if the resource don't exist and registered ok
